@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #FAFAFA;
+}
+.fl {
+  float: left;
+}
+.box-mid {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  overflow: hidden;
+  background-color: #00B9E8;
+}
+.header .logo {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header .logo ul {
+  float: right;
+}
+.header .logo ul li {
+  float: right;
+  padding: 10px;
+}
+.header .logo ul li a {
+  color: white;
+}
+.header .logo img {
+  padding-left: 10px;
+}
+.header .nav {
+  background-color: #EBEBEB;
+  overflow: hidden;
+}
+.header .nav .inner {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header .nav .inner ul {
+  float: left;
+}
+.header .nav .inner ul li {
+  float: left;
+  padding: 15px;
+}
+.header .nav .inner ul li a {
+  display: block;
+  color: black;
+}
+.header .nav .inner ul li a:hover {
+  color: white;
+  background-color: #5F5F5F;
+}
+.header .nav .inner input {
+  margin-top: 12px;
+}
+.content {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .main {
+  float: left;
+  width: 600px;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid #cdcdcd;
+}
+.content .main ._top {
+  border-top: 3px solid #4EB727;
+  border-bottom: 1px solid #CDCDCD;
+}
+.content .main ._top span {
+  display: block;
+  line-height: 40px;
+  background-color: #F6F8F7;
+  font-size: 14px;
+}
+.content .main ._top span a {
+  padding: 10px;
+  color: #868686;
+}
+.content .main .list {
+  width: 290px;
+  padding: 40px 55px;
+  float: left;
+  overflow: hidden;
+}
+.content .main .list strong {
+  color: #9F9F9F;
+}
+.content .main .list .yy {
+  float: left;
+  display: block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #EFEFEF;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-size: 12px;
+  color: #595959;
+}
+.content .main .list .zx {
+  float: right;
+  display: block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #D4BC7E;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-size: 12px;
+  color: white;
+}
+.content .main .list .line {
+  margin-top: 80px;
+  border-bottom: 2px solid #B2F602;
+}
+.content .right {
+  padding-left: 40px;
+  overflow: hidden;
+  border: 1px solid #CECECE;
+  width: 340px;
+  float: right;
+  margin: 10px;
+}
+.content .right .Left {
+  width: 263px;
+  overflow: hidden;
+  float: left;
+}
+.content .right .Left .l_top {
+  border-bottom: 1px solid #5F5F5F;
+  padding: 10px;
+  color: #44AF25;
+}
+.content .right .Left .l_top .aa {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+}
+.content .right .Left .l_top .bb {
+  font-size: 12px;
+  color: #CECECE;
+}
+.content .right .Left .l_top a {
+  float: right;
+  color: #666;
+  font-size: 14px;
+}
+.content .right .Left ._center {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.content .right .Left ._center a {
+  margin-top: 10px;
+}
+.content .right .Right {
+  width: 263px;
+  overflow: hidden;
+  float: left;
+}
+.content .right .Right .r_top {
+  border-bottom: 1px solid #5F5F5F;
+  padding: 10px;
+  color: #44AF25;
+}
+.content .right .Right .r_top .r_aa {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+}
+.content .right .Right .r_top .r_bb {
+  font-size: 12px;
+  color: #CECECE;
+}
+.content .right .Right .r_top a {
+  float: right;
+  color: #666;
+  font-size: 14px;
+}
+.content .right .Right .r_center {
+  display: block;
+  padding-top: 10px;
+}
+.content .right .Right .r_center a {
+  margin-top: 10px;
+}
+.content .right .Right .r_link {
+  padding-bottom: 30px;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer .f_nav {
+  width: 100%;
+  background-color: #4EB727;
+}
+.footer .f_nav ul {
+  width: 930px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-left: 31%;
+}
+.footer .f_nav ul li {
+  float: left;
+  padding: 0 10px;
+  line-height: 30px;
+}
+.footer .f_nav ul li a {
+  color: white;
+}
+.footer .f_text {
+  margin-top: 20px;
+  height: 200px;
+  text-align: center;
+  font-size: 12px;
+  color: #868686;
+}
+.footer .f_text p {
+  padding: 10px;
+}
+._gif {
+  position: fixed;
+  top: 100px;
+  width: 120px;
+  height: 120px;
+}
+.footer_nav {
+  width: 100%;
+  height: 60px;
+  background: url(../imgs/index/flbg.gif) repeat-x;
+  position: fixed;
+  bottom: -1px;
+}
+.footer_nav .last {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: fixed;
+  bottom: -4px;
+  left: 220px;
+}

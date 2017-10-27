@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #FAFAFA;
+}
+.fl{
+    float:left;
+}
+.box-mid{
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #00B9E8;
+    .logo{
+        .box-mid;
+        ul{
+            float: right;
+            li{
+                float:right;
+                padding: 10px;
+                a{
+                    color:white;
+                }
+            }
+        }
+        img{
+            padding-left: 10px;
+        }        
+    }
+    .nav{
+        background-color: #EBEBEB;
+        overflow: hidden;
+        .inner{
+            .box-mid;
+            ul{
+                .fl;               
+                li{
+                    .fl;
+                    padding: 15px;
+                    a{
+                        display: block;
+                        color:black;
+                    }
+                    a:hover{
+                        color: white;
+                        background-color: #5F5F5F;
+                    }
+                }
+            }
+            input{
+                margin-top: 12px;
+            }
+        }
+        
+    }
+}
+.content{
+    .box-mid;
+    margin-top: 30px;
+    .c_left{
+        ul{
+            float: left;
+            li{
+                height:100px;
+                width: 300px;
+                margin:30px;
+                margin-left: 0;
+                background-color: red;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-left: 13px;
+                span{
+                    display: block;
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50%;
+                    background-color: white;
+                    text-align: center;
+                    a{
+                        line-height: 38px;
+                        font-weight: bold;
+                        
+                    }
+                }
+            }
+            .no1{
+                background-color: #FFBC30;
+                a{
+                    color:#FFBC30;
+                }
+            }
+            .no2{
+                background-color: #B2F603;
+                a{
+                    color:#B2F603;
+                }
+            }
+            .no3{
+                background-color: #1CB1DC;
+                a{
+                    color:#1CB1DC;
+                }
+            }
+            .no4{
+                background-color: #FA50BD;
+                a{
+                    color:#FA50BD;
+                }
+            }
+            .no5{
+                background-color: #A6F951;
+                a{
+                    color:#A6F951;
+                }
+            }
+        }
+    }
+    .main{
+        margin-top: 30px;
+        float:left;
+        width: 800px;
+        border: 1px solid #D8D8D8;
+        background-color: white;
+        margin-left: -200px;
+        text-align: center;
+        span{
+            line-height: 100px;
+            text-align: center;
+            font-size: 36px;
+        }
+    }
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    .f_nav{
+        width: 100%;
+        background-color: #4EB727;
+        ul{
+            width: 930px;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-left: 31%;
+            li{
+                .fl;
+                padding: 0 10px;
+                line-height: 30px;
+                a{color:white;}
+            }
+        }
+    }
+    .f_text{
+        margin-top: 20px;
+        height: 200px;
+        text-align: center;
+        font-size: 12px;
+        color:#868686;
+        p{
+            padding: 10px;
+        }
+    }
+}
+._gif{
+    position: fixed;
+    top:100px;
+    width: 120px;
+    height: 120px;
+}
+.footer_nav{
+    width: 100%;
+    height: 60px;
+    background: url(../imgs/index/flbg.gif) repeat-x;
+    position: fixed;
+    bottom:-1px;
+    .last{
+        .box-mid;
+        position: fixed;
+        bottom: -4px;
+        left: 220px;
+    }
+}
